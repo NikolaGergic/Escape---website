@@ -1,0 +1,302 @@
+
+
+
+
+
+/* SMALL PHONES from 0px to 480px */ 
+@media only screen and (max-width: 480px) {
+	section { padding: 15px 0; }
+
+
+	.main-nav {
+		margin-right: 20%;
+		margin-top: 0;
+	}
+
+	.main-nav li a:link, .main-nav li a:visited {
+    	font-size: 14px;
+    	margin-left: unset;
+    	margin-right: unset;
+    	padding: 0;
+    	display: inline;
+	}
+
+	.escape-text-box {
+		position: unset;
+		transform: unset;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+	}
+
+
+	.escape-text-box h2 {
+		font-size: 90%;
+	}
+
+	.escape-text-box h1 {
+		font-size: 170%;
+	}
+	
+	.clock {
+		font-size: 170%;
+	}
+
+	.identity-box:last-child {
+
+	}
+
+	.brand-text {
+		width: unset;
+		height: unset;
+	}
+
+	.section-team {
+		height: unset;
+	}
+
+	.logo-position {
+		position: unset;
+		left:unset;
+		display: flex;
+		justify-content: center;
+	}
+
+	.team-topic {
+		margin-top: 10px;
+	}
+
+	.team-member {
+		margin-top: 2%;
+	}
+	.team-description {
+		margin-top: 20px;
+	}
+
+	.pic-skills {
+		padding-left: unset;
+		display: flex;
+		justify-content: center
+	}
+
+	.section-contact {
+		height: unset;
+		text-align: center;
+	}
+
+	.contact-left {
+		margin-top: -20px;
+	}
+	.contact-right {
+		margin-top: -20px;
+		margin-bottom: 20px;
+	}
+
+	.contact-name {
+		width: 90%;
+	}
+
+	.contact-email {
+		width: 90%;
+	}
+
+
+	.contact-message {
+		width: 90%;
+	}
+
+
+
+	.border-hr {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.border-hr hr{
+		width: 70%;
+	}
+
+
+
+
+ 
+}
+
+
+/* SMALL PHONES to SMALL TABLETS: from 481px to 767px; */ 
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	body { font-size: 15px; }
+	section { padding: 30px 0; }
+
+	.row { padding: 0 !important; }
+
+	.main-nav {
+		margin-right: 10%;
+		margin-top: 0;
+	}
+	.main-nav li a:link, .main-nav li a:visited {
+    	font-size: 14px;
+	}
+
+	.escape-text-box {
+		position: unset;
+		transform: unset;
+		width: 100%;
+		margin-bottom: 0;
+	}
+	h2 {
+		font-size: 150%;
+	}
+	h1 {
+		font-size: 300%;
+	}
+	.escape-text-box h1 {
+		font-size: 300%;
+		margin: 0 auto;
+	}
+	.identity-box:last-child {
+		position: relative;
+	}
+	.brand-text {
+		width: unset;
+		height: unset;
+	}
+	.section-identity{
+		height:unset;
+	}
+	.pic-skills {
+		padding-left: unset;
+	}
+
+	.section-skills {
+		margin: 0 2%;
+	}
+
+	.team-position {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.section-team {
+		height: unset;
+	}
+
+	.team-description {
+		margin-top: 20px;
+	}
+	.logo-position {
+		position: unset;
+		left:unset;
+		display: flex;
+		justify-content: center;
+	}
+
+	.contact-div {
+		width: 100%;
+   		text-align: center;
+	}
+
+	.contact-form {
+		margin-right: 2%;
+	}
+
+	.section-contact {
+		height: unset;
+		padding: 0 !important;
+	}
+
+	.border-hr {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0;
+	}
+	.border-hr hr{
+		width: 80%;
+	}
+
+	.clock {
+		margin-bottom: 0;
+	}
+
+
+
+}
+
+
+
+/* SMALL TABLETS to BIG TABLETS: from 768px to 1023px; */ 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	body { font-size: 15px; }
+	section { padding: 60px 0; }
+	
+
+	.main-nav{
+		margin-right:3%;
+	}
+
+	.icon-left, .text-right{
+		padding-left:13%;
+	}
+	.logo-position {
+	    position: relative;
+	    left: 20%;
+	}
+	.contact-div {
+		width: 100%;
+   		text-align: center;
+	}
+	.border-hr {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0;
+	}
+	.border-hr hr{
+		width: 80%;
+	}
+
+	.section-contact { height: 100%; }
+
+}
+
+
+@media only screen and (max-width: 1140px) {
+	.escape-text-box {
+		width: 100%;
+	}
+	.row {
+		width: 100%;
+		padding: 20px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.logo {
+		height: 50px;
+		max-width: 100px;
+		margin-top: 0;
+	}
+	ul.main-nav {
+		margin: auto;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	header .row {
+		text-align: center;
+	}
+	header nav img {
+		float: none;
+	}
+	ul.main-nav {
+		width: 100%;
+		text-align: center
+	}
+	ul.main-nav li {
+		margin-left: 20px;
+	}
+
+}
